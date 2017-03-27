@@ -38,6 +38,10 @@
   padding: 0 20px;
 }
 
+#navbar-button-padding {
+  padding: 5px 15px;
+}
+
 /* Navbar standard link */
 .navbar-wagon-link {
   color: #616668;
@@ -54,7 +58,7 @@
   padding: 0 20px;
   border-radius: 20em;
   line-height: 40px;
-  background-color: #D23333;
+  background-color: $brand-primary;
   color: white;
   font-size: 14px;
   border: 2px solid #D23333;

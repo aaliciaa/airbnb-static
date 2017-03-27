@@ -2,12 +2,11 @@
   border-radius: 5px;
   text-align: center;
   padding: 20px;
-}
-
-.features h2 {
+  h2 {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 5px;
+  }
 }
 
 /*Listing Card*/
@@ -21,6 +20,10 @@
   position: relative;
   border-radius: 5px;
   margin-bottom: 20px;
+  h2 {
+  font-size: 20px;
+  font-weight: bold;
+  }
 }
 
 .card-link {
@@ -31,12 +34,10 @@
   z-index: 2;
   background: black;
   opacity: 0;
-}
-
-.card-link:hover {
+  &:hover {
   opacity: 0.1;
+  }
 }
-
 
 .card-user {
   position: absolute;
@@ -62,9 +63,4 @@
   right: 20px;
   border-radius: 50%;
   width: 50px;
-}
-
-.card h2 {
-  font-size: 20px;
-  font-weight: bold;
 }
